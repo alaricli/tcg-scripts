@@ -13,12 +13,12 @@ def map_legalities(legalities):
 
 def transform_card(card):
     return {
+        "id": card.set.id + "-" + card.number,
         "name": card.name,
         "hp": int(card.hp) if card.hp else None,
         "retreatCost": card.convertedRetreatCost,
         "artist": card.artist,
         "regulationMark": card.regulationMark,
-        "identifier": card.set.id + "-" + card.number,
         "cardNumber": int(card.number) if card.number else None,
         "nationalPokedexNumber": card.nationalPokedexNumbers[0] if card.nationalPokedexNumbers else None,
         "hasRuleBox": bool(card.rules),
@@ -38,7 +38,7 @@ def transform_card(card):
             "small": card.images.small if card.images else None,
             "large": card.images.large if card.images else None,
         },
-        "legalities": map_legalities(set.legalities),
+        "legalities": map_legalities(card.legalities),
         "isMobile": False,
         "attacks": [
             {

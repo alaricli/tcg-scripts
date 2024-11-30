@@ -2,3 +2,11 @@ venv
 samplecard.json
 sampleset.json
 examples
+swsh4_cards.json
+transform_pocket_cards.py
+transformed_pocket_cards.json
+pocket4.json
+pocket3.json
+pocket2.json
+pocket1.json
+pocket.json
