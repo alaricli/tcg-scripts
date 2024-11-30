@@ -4,21 +4,6 @@ from pokemontcgsdk import Card, Set, RestClient
 
 RestClient.configure('e04b950b-6e91-4c21-b820-06fd135d9b8a')
 
-def map_series(series):
-    series_mapping = {
-        "EX": "EX",
-        "Diamond & Pearl": "DIAMOND_PEARL",
-        "Platinum": "PLATINUM",
-        "HeartGold & SoulSilver": "HEARTGOLD_SOULSILVER",
-        "Black & White": "BLACK_WHITE",
-        "XY": "XY",
-        "Sun & Moon": "SUN_MOON",
-        "Sword & Shield": "SWORD_SHIELD",
-        "Scarlet & Violet": "SCARLET_VIOLET",
-        "Pocket": "POCKET"
-    }
-    return series_mapping.get(series, "UNKNOWN")
-
 def map_legalities(legalities):
     return {
         "unlimited": legalities.unlimited == "Legal" if hasattr(legalities, "unlimited") else False,
@@ -29,9 +14,9 @@ def map_legalities(legalities):
 def transform_set(set):
    return {
       "id": set.id,
-      "series": map_series(set.series),
+      "series": set.series,
       "name": set.name,
-      "expansionCode": set.ptcgoCode.replace("-", "_"),
+      "expansionCode": set.ptcgoCode,
       "expansionImages": vars(set.images) if set.images else None,
       "legalities": map_legalities(set.legalities),
       "printedTotal": set.printedTotal,
