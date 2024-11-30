@@ -1,10 +1,10 @@
+from pokemontcgsdk import Card, RestClient, Set
 import json
 import unicodedata
 
-from pokemontcgsdk import Card, RestClient
-
 RestClient.configure('e04b950b-6e91-4c21-b820-06fd135d9b8a')
 
+# Function to map rarity
 def map_rarity(rarity):
     rarity_mapping = {
         "Amazing Rare": "AMAZING",
@@ -33,6 +33,7 @@ def map_rarity(rarity):
     }
     return rarity_mapping.get(rarity, "UNKNOWN")
 
+# Function to map subtypes
 def map_subtypes(subtypes):
     subtype_mapping = {
         "BREAK": "BREAK",
@@ -63,6 +64,7 @@ def map_subtypes(subtypes):
     }
     return [subtype_mapping.get(s, "UNKNOWN") for s in subtypes]
 
+# Function to transform a single card into the desired format
 def transform_card(card):
     return {
         "name": card.name,
@@ -103,17 +105,27 @@ def transform_card(card):
         ] if card.attacks else []
     }
 
-def get_card(card_id):
-  try:
-    card = Card.find(card_id)
-    return card
-  except Exception as e:
-    return f"An error occured: {e}"
+# Function to fetch cards by set
+def get_cards_by_set(set_id):
+    print(f"Fetching cards from set: {set_id}")
+    query = f'set.id:"{set_id}"'
+    cards = Card.where(q=query)
+    return cards
 
 if __name__ == "__main__":
-  card_id = input("enter a card id, eg:'xy1-1': ")
-  card = get_card(card_id)
-  transformed_card = transform_card(card)
-  card_json = json.dumps(transformed_card, default=lambda o: o.__dict__, indent=4)
-  
-  print(card_json)
+    set_id = input("Enter set id, eg. sv8 for Surging Sparks: ")
+    cards = get_cards_by_set(set_id)
+    cards_json = []
+
+    for card in cards:
+        # Transform each card before adding it to the JSON list
+        transformed_card = transform_card(card)
+        card_json = json.dumps(transformed_card, default=lambda o: o.__dict__, indent=4)
+        cards_json.append(json.loads(card_json))
+
+    # Save all cards to a single JSON file
+    output_filename = f"{set_id}_cards.json"
+    with open(output_filename, "w") as file:
+        json.dump(cards_json, file, indent=4)
+
+    print(f"Saved all transformed cards to {output_filename}")

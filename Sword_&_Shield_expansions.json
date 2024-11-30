@@ -1,0 +1,452 @@
+[
+    {
+        "id": "swshp",
+        "series": "SWORD_SHIELD",
+        "name": "SWSH Black Star Promos",
+        "expansionCode": "PR_SW",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swshp/symbol.png",
+            "logo": "https://images.pokemontcg.io/swshp/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 307,
+        "total": 304,
+        "releaseDate": "2019/11/15"
+    },
+    {
+        "id": "swsh1",
+        "series": "SWORD_SHIELD",
+        "name": "Sword & Shield",
+        "expansionCode": "SSH",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh1/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh1/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": false
+        },
+        "printedTotal": 202,
+        "total": 216,
+        "releaseDate": "2020/02/07"
+    },
+    {
+        "id": "swsh2",
+        "series": "SWORD_SHIELD",
+        "name": "Rebel Clash",
+        "expansionCode": "RCL",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh2/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh2/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": false
+        },
+        "printedTotal": 192,
+        "total": 209,
+        "releaseDate": "2020/05/01"
+    },
+    {
+        "id": "swsh3",
+        "series": "SWORD_SHIELD",
+        "name": "Darkness Ablaze",
+        "expansionCode": "DAA",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh3/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh3/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": false
+        },
+        "printedTotal": 189,
+        "total": 201,
+        "releaseDate": "2020/08/14"
+    },
+    {
+        "id": "swsh35",
+        "series": "SWORD_SHIELD",
+        "name": "Champion's Path",
+        "expansionCode": "CPA",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh35/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh35/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": false
+        },
+        "printedTotal": 73,
+        "total": 80,
+        "releaseDate": "2020/09/25"
+    },
+    {
+        "id": "swsh4",
+        "series": "SWORD_SHIELD",
+        "name": "Vivid Voltage",
+        "expansionCode": "VIV",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh4/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh4/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": false
+        },
+        "printedTotal": 185,
+        "total": 203,
+        "releaseDate": "2020/11/13"
+    },
+    {
+        "id": "swsh45",
+        "series": "SWORD_SHIELD",
+        "name": "Shining Fates",
+        "expansionCode": "SHF",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh45/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh45/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 72,
+        "total": 73,
+        "releaseDate": "2021/02/19"
+    },
+    {
+        "id": "swsh45sv",
+        "series": "SWORD_SHIELD",
+        "name": "Shining Fates Shiny Vault",
+        "expansionCode": "SHF",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh45sv/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh45sv/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": false
+        },
+        "printedTotal": 122,
+        "total": 122,
+        "releaseDate": "2021/02/19"
+    },
+    {
+        "id": "swsh5",
+        "series": "SWORD_SHIELD",
+        "name": "Battle Styles",
+        "expansionCode": "BST",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh5/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh5/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 163,
+        "total": 183,
+        "releaseDate": "2021/03/19"
+    },
+    {
+        "id": "swsh6",
+        "series": "SWORD_SHIELD",
+        "name": "Chilling Reign",
+        "expansionCode": "CRE",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh6/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh6/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 198,
+        "total": 233,
+        "releaseDate": "2021/06/18"
+    },
+    {
+        "id": "swsh7",
+        "series": "SWORD_SHIELD",
+        "name": "Evolving Skies",
+        "expansionCode": "EVS",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh7/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh7/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 203,
+        "total": 237,
+        "releaseDate": "2021/08/27"
+    },
+    {
+        "id": "cel25",
+        "series": "SWORD_SHIELD",
+        "name": "Celebrations",
+        "expansionCode": "CEL",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/cel25/symbol.png",
+            "logo": "https://images.pokemontcg.io/cel25/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 25,
+        "total": 25,
+        "releaseDate": "2021/10/08"
+    },
+    {
+        "id": "cel25c",
+        "series": "SWORD_SHIELD",
+        "name": "Celebrations: Classic Collection",
+        "expansionCode": "CEL",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/cel25c/symbol.png",
+            "logo": "https://images.pokemontcg.io/cel25c/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": false,
+            "standard": false
+        },
+        "printedTotal": 25,
+        "total": 25,
+        "releaseDate": "2021/10/08"
+    },
+    {
+        "id": "swsh8",
+        "series": "SWORD_SHIELD",
+        "name": "Fusion Strike",
+        "expansionCode": "FST",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh8/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh8/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 264,
+        "total": 284,
+        "releaseDate": "2021/11/12"
+    },
+    {
+        "id": "swsh9",
+        "series": "SWORD_SHIELD",
+        "name": "Brilliant Stars",
+        "expansionCode": "BRS",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh9/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh9/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 172,
+        "total": 186,
+        "releaseDate": "2022/02/25"
+    },
+    {
+        "id": "swsh9tg",
+        "series": "SWORD_SHIELD",
+        "name": "Brilliant Stars Trainer Gallery",
+        "expansionCode": "BRS",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh9tg/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh9tg/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 30,
+        "total": 30,
+        "releaseDate": "2022/02/25"
+    },
+    {
+        "id": "swsh10",
+        "series": "SWORD_SHIELD",
+        "name": "Astral Radiance",
+        "expansionCode": "ASR",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh10/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh10/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 189,
+        "total": 216,
+        "releaseDate": "2022/05/27"
+    },
+    {
+        "id": "swsh10tg",
+        "series": "SWORD_SHIELD",
+        "name": "Astral Radiance Trainer Gallery",
+        "expansionCode": "ASR",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh10tg/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh10tg/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 30,
+        "total": 30,
+        "releaseDate": "2022/05/27"
+    },
+    {
+        "id": "pgo",
+        "series": "SWORD_SHIELD",
+        "name": "Pok\u00e9mon GO",
+        "expansionCode": "PGO",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/pgo/symbol.png",
+            "logo": "https://images.pokemontcg.io/pgo/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 78,
+        "total": 88,
+        "releaseDate": "2022/07/01"
+    },
+    {
+        "id": "swsh11",
+        "series": "SWORD_SHIELD",
+        "name": "Lost Origin",
+        "expansionCode": "LOR",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh11/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh11/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 196,
+        "total": 217,
+        "releaseDate": "2022/09/09"
+    },
+    {
+        "id": "swsh11tg",
+        "series": "SWORD_SHIELD",
+        "name": "Lost Origin Trainer Gallery",
+        "expansionCode": "LOR",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh11tg/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh11tg/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 30,
+        "total": 30,
+        "releaseDate": "2022/09/09"
+    },
+    {
+        "id": "swsh12",
+        "series": "SWORD_SHIELD",
+        "name": "Silver Tempest",
+        "expansionCode": "SIT",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh12/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh12/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 195,
+        "total": 215,
+        "releaseDate": "2022/11/11"
+    },
+    {
+        "id": "swsh12tg",
+        "series": "SWORD_SHIELD",
+        "name": "Silver Tempest Trainer Gallery",
+        "expansionCode": "SIT",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh12tg/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh12tg/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 30,
+        "total": 30,
+        "releaseDate": "2022/11/11"
+    },
+    {
+        "id": "swsh12pt5",
+        "series": "SWORD_SHIELD",
+        "name": "Crown Zenith",
+        "expansionCode": "CRZ",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh12pt5/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh12pt5/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 159,
+        "total": 160,
+        "releaseDate": "2023/01/20"
+    },
+    {
+        "id": "swsh12pt5gg",
+        "series": "SWORD_SHIELD",
+        "name": "Crown Zenith Galarian Gallery",
+        "expansionCode": "CRZ",
+        "expansionImages": {
+            "symbol": "https://images.pokemontcg.io/swsh12pt5gg/symbol.png",
+            "logo": "https://images.pokemontcg.io/swsh12pt5gg/logo.png"
+        },
+        "legalities": {
+            "unlimited": true,
+            "expanded": true,
+            "standard": true
+        },
+        "printedTotal": 70,
+        "total": 70,
+        "releaseDate": "2023/01/20"
+    }
+]

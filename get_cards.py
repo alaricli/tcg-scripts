@@ -1,10 +1,8 @@
 from pokemontcgsdk import Card, RestClient
 import json
+import unicodedata
 
 RestClient.configure('e04b950b-6e91-4c21-b820-06fd135d9b8a')
-
-# todo: sort data into my format before putting into list
-# todo: save the list
 
 def get_cards_by_set(set_name):
   print(f"Fetching cards from set: {set_name}")
