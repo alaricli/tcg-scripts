@@ -33,11 +33,7 @@ expansions = set()
 series = set()
 packs = set()
 
-data1 = load_json("pocket1.json")
-data2 = load_json("pocket2.json")
-data3 = load_json("pocket3.json")
-data4 = load_json("pocket4.json")
-data = data1 + data2 + data3 + data4
+data = load_json("pocket.json")
 
 for d in data:
     process_item(d, rarities, expansions, series, packs)
