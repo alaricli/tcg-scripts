@@ -1047,7 +1047,12 @@ def transform_card(card):
         "superType": "Trainer" if card.get("trainerType") else card.get("type"),
         "subTypes": (
             [card.get("trainerType")]
-            or (pokemon_data["subtype"] if pokemon_data else None)
+            if card.get("trainerType")
+            else (
+                pokemon_data.get("subtype")
+                if pokemon_data and pokemon_data.get("subtype")
+                else None
+            )
         ),
         "expansionId": (
             "P-A" if card.get("expansionKey") == "PROMO-A" else card.get("expansionKey")
@@ -1068,7 +1073,19 @@ def transform_card(card):
             "large": card["displayImageUrl"] if "displayImageUrl" in card else None,
         },
         "isPocket": True,
-        "attacks": [],
+        "attacks": (
+            [
+                {
+                    "name": "Name",
+                    "cost": "Colorless,Colorless",
+                    "numericalEnergyCost": 2,
+                    "damage": "",
+                    "text": "Flip a coin, if heads, your opponent shuffles their Active Pokemon into their deck.",
+                }
+            ]
+            if not card.get("trainerType")
+            else []
+        ),
         "foundInPacks": [map_pack(pack_id) for pack_id in card.get("foundInPacks", [])],
         "dustCost": card.get("dustCost", None),  # Added based on provided data
     }
