@@ -1,0 +1,100 @@
+[
+  {
+    "id": "A1-115",
+    "name": "Abra",
+    "hp": 60,
+    "retreatCost": 1,
+    "artist": "Aya Kusube",
+    "regulationMark": "A",
+    "cardNumber": 115,
+    "nationalPokedexNumber": 63,
+    "hasRuleBox": false,
+    "hasAbility": false,
+    "ability": null,
+    "trainerCardText": "",
+    "rarity": "Common",
+    "superType": "Pokemon",
+    "subTypes": [
+      "Basic"
+    ],
+    "expansionId": "A1",
+    "energyTypes": [
+      "Psychic"
+    ],
+    "attackEnergyTypes": [
+      "Psychic"
+    ],
+    "weakness": [
+      "Darkness"
+    ],
+    "resistance": [],
+    "rules": [],
+    "cardImages": {
+      "small": "https://s3.amazonaws.com/pocket-game-assets.codex.gg/cards/cPK_10_001150_00_CASEY_C.png",
+      "large": "https://s3.amazonaws.com/pocket-game-assets.codex.gg/cards/cPK_10_001150_00_CASEY_C.png"
+    },
+    "isPocket": true,
+    "attacks": [
+      {
+        "name": "Teleport",
+        "cost": "Colorless",
+        "numericalEnergyCost": 1,
+        "damage": "",
+        "text": "Switch this Pokemon with 1 of your Benched Pokemon."
+      }
+    ],
+    "foundInPacks": [
+      "A1-2"
+    ],
+    "dustCost": 35
+  },
+  {
+    "id": "A1-210",
+    "name": "Aerodactyl",
+    "hp": 100,
+    "retreatCost": 1,
+    "artist": "Naoyo Kimura",
+    "regulationMark": "A",
+    "cardNumber": 210,
+    "nationalPokedexNumber": 142,
+    "hasRuleBox": false,
+    "hasAbility": false,
+    "ability": null,
+    "trainerCardText": "",
+    "rarity": "Rare",
+    "superType": "Pokemon",
+    "subTypes": [
+      "Stage 1"
+    ],
+    "expansionId": "A1",
+    "energyTypes": [
+      "Colorless"
+    ],
+    "attackEnergyTypes": [
+      "Colorless"
+    ],
+    "weakness": [
+      "Lightning"
+    ],
+    "resistance": [],
+    "rules": [],
+    "cardImages": {
+      "small": "https://s3.amazonaws.com/pocket-game-assets.codex.gg/cards/cPK_10_002080_00_PTERA_R.png",
+      "large": "https://s3.amazonaws.com/pocket-game-assets.codex.gg/cards/cPK_10_002080_00_PTERA_R.png"
+    },
+    "isPocket": true,
+    "attacks": [
+      {
+        "name": "Primal Wingbeat",
+        "cost": "Colorless,Colorless",
+        "numericalEnergyCost": 2,
+        "damage": "",
+        "text": "Flip a coin, if heads, your opponent shuffles their Active Pokemon into their deck."
+      }
+    ],
+    "foundInPacks": [
+      "A1-1"
+    ],
+    "dustCost": 150
+  }
+]
